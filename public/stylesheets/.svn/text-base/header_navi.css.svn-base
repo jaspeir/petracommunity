@@ -1,0 +1,317 @@
+
+
+/* Standardlayout start */
+
+body {
+  font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+  color:#424242;
+  font-size:12px;
+  margin:15px;
+  background:#E5F2FD;
+}
+
+td {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+}
+
+th {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+}
+
+img {
+	border:none;
+	vertical-align:middle;
+}
+
+a {
+color: #3E90D7;
+text-decoration: none;
+}
+
+a:hover {
+color: maroon;
+text-decoration: underline;
+}
+
+a.black {
+color: #424242;
+text-decoration: underline;
+}
+
+a.black:hover {
+text-decoration: underline;
+}
+/* Standardlayout end */
+
+
+/* Standardlayout floats start */
+.floatleft {
+	float:left;
+	text-align:center;
+	margin: 0 1px 0 1px;
+	width:16%;
+}
+
+.floatright {
+	float:right;
+	text-align:center;
+	margin: 0;
+}
+/* basic floats end */
+
+
+/* header start */
+#header {
+	height:127px;
+	width:960px;
+	margin:0px auto;
+	background:#73A1C9;
+}
+
+#header .left {
+	background: url(/images/logo.png);
+	height:100px;
+	float:left;
+	margin:0;
+}
+
+#header .right {
+	height:100px;
+	float:right;
+	margin:0;
+	width:55px;
+}
+
+.clearer  {
+	clear:both;
+}
+
+
+/** Subnav adsense **/
+#subnav a.createnew:link, #subnav a.createnew:visited {
+	color: #F4D599;
+        }
+
+
+/* Standardlayout Links start */ 
+
+#nav {
+color: #3E90D7;
+font-size: 12pt;
+font-weight: bold;
+background: #ccc;
+padding: 0.5em;
+}
+#nav a, #nav a:visited {
+color: #2579C2;
+text-decoration: none;
+}
+#nav a:hover {
+border-bottom: 2px dotted #3E90D7;
+}
+
+/* Standardlayout Links ende */ 
+
+
+/* Main Navigation (Hilfe, Feedback, Login */
+
+#nav_right {
+	float:right;
+	margin-top:4px;
+	padding-right:15px;
+	width:250px;
+	height:14px;
+	color:#5A6E75;
+	text-align:right;
+}
+
+#nav_right a:link, #nav_right a:visited {
+	padding-left:15px;
+	color:#FFFFFF;
+	font-size:0.9em;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#nav_right a:hover {
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+
+.big {
+	font-size:1.4em;
+	line-height:12px;
+}
+
+
+
+/* Main Navigation im Header start */
+#navigation {
+	position:relative;
+	top:7px;
+	height:27px;
+}
+
+#main_nav {
+	margin-left:10px;
+  	font-size:100%;
+  	text-transform:uppercase;
+  	line-height:normal;
+	font-weight:bold;
+	height:27px;
+
+	
+  	}
+	  
+    #main_nav ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+    }
+	
+    #main_nav_tabs li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+	  
+    #main_nav_tabs a {
+      float:left;
+      margin-right:2px;
+      padding:0 0 0 6px;
+      text-decoration:none;
+      }
+	  
+    #main_nav_tabs a span {
+      float:left;
+      display:block;
+      padding:7px 10px 6px 3px;
+      color:#FFFFFF;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #main_nav_tabs a span {float:none;}
+    /* End IE5-Mac hack */
+    #main_nav_tabs a:link.activetab, #main_nav_tabs a:visited.activetab, #main_nav_tabs a:hover {
+      background-position:0% -27px;
+      }
+    #main_nav_tabs a:hover span, #main_nav_tabs a.activetab span {
+      background-position:100% -27px;
+	  color: maroon;
+          text-decoration:underline;
+      }
+      
+      
+      /* Main Navigation im Header end */
+      
+      
+
+
+/* standardlayout content start */
+
+
+/* standardlayout content end */
+
+
+
+
+/* Railssapce original */
+
+#content {
+height: 100%;
+background: white;
+padding: 1em;
+}
+#content h1 {
+font-size: 18pt;
+}
+/* Hack to get IE to display fieldset/legend correctly */
+html fieldset {
+position: relative;
+}
+html legend {
+position:absolute;
+top: -1em;
+left: .5em;
+}
+html fieldset {
+position: relative;
+margin-top:1em;
+padding-top:2em;
+padding-bottom: 2em;
+}
+/* Form Styles */
+fieldset {
+background: #ddd;
+}
+legend {
+color: white;
+background: #3E90D7;
+padding: .4em 1em;
+}
+label {
+width: 10em;
+float: left;
+text-align: right;
+margin-right: 0.2em;
+display: block;
+}
+.form_row {
+white-space: nowrap;
+padding-bottom: .5em;
+}
+.submit {
+margin-left: 15em;
+}
+
+/* Debug Style */
+.debug_dump {
+text-align: left;
+border-top: 1px dashed black;
+background: #ccc; margin: 0;
+padding: 0.5em;
+}
+
+/* Error Reporting Styles */
+.fieldWithErrors {
+margin: 2px;
+padding: 2px;
+background-color: red;
+display: table;
+}
+
+#errorExplanation {
+border: 2px solid red;
+padding: 7px;
+padding-bottom: 12px;
+margin-bottom: 20px;
+background-color: #f0f0f0;
+}
+#errorExplanation h2 {
+text-align: left;
+font-weight: bold;
+padding: 5px 5px 5px 15px;
+font-size: 12pt;
+margin: -7px;
+background-color: #c00;
+color: #fff;
+}
+#errorExplanation p {
+color: #333;
+margin-bottom: 0;
+padding: 5px;
+}
+#errorExplanation ul li {
+font-size: 11pt;
+list-style: square;
+}
+
+/* Flash Notice Style */
+#notice {
+border: 1px solid green;
+padding: 1em;
+margin: 1em;
+margin-bottom: 2em;
+background-color: lightgray;
+font: bold smaller sans-serif;
+}
+

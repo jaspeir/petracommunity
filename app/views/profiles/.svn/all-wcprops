@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/33/trunk/app/views/profiles
+END
+_profile_pictures.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/26/trunk/app/views/profiles/_profile_pictures.rhtml
+END
+_profile_groups.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/28/trunk/app/views/profiles/_profile_groups.rhtml
+END
+show.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/33/trunk/app/views/profiles/show.rhtml
+END
+index.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/26/trunk/app/views/profiles/index.rhtml
+END
+_profile_data.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/26/trunk/app/views/profiles/_profile_data.rhtml
+END
+_profile_mini_map.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/33/trunk/app/views/profiles/_profile_mini_map.rhtml
+END

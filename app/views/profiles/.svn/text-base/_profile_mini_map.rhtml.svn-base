@@ -1,0 +1,6 @@
+<% content_for :extra_headers do %>
+	<%= GMap.header %>
+	<%= @map.to_html %>
+<% end %>
+
+<%= @map.div(:width => 300, :height => 200) %>

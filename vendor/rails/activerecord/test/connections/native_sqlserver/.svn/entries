@@ -1,0 +1,40 @@
+8
+
+dir
+36
+https://petra2008.googlecode.com/svn/trunk/vendor/rails/activerecord/test/connections/native_sqlserver
+https://petra2008.googlecode.com/svn
+
+
+
+2007-10-29T17:21:22.809303Z
+2
+1000Partner
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b70135a9-873c-0410-89b3-73a00b05a896
+
+connection.rb
+file
+
+
+
+
+2008-01-07T10:13:49.000000Z
+4a3a932686c3d9b78c529ddd07203932
+2007-10-29T17:21:22.809303Z
+2
+1000Partner
+

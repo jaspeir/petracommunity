@@ -1,0 +1,102 @@
+<%= error_messages_for :spec %>
+
+<% form_for :spec, :url => spec_path, :html => {:method => :put} do |f| %>
+
+	<fieldset>
+		<legend>Grundlegendes</legend>
+		<div class='form_row'><label for="gender">Geschlecht</label>
+			<% Spec::GENDERS.each do |gender_type| %>
+				<%= f.radio_button :gender, gender_type %><%= gender_type %>
+			<% end %>
+		</div>
+		<div class='form_row'><label for="sexuality">Sexualität</label>
+		<%= f.select :sexuality, Spec::SEXUALITIES %></div>
+		<div class='submit'><%= submit_tag 'Speichern'.t %></div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Persönliche Daten</legend>
+		<div class='form_row'><label for="birth_date">Geburtstag*</label>
+		<%= f.date_select :birth_date, 
+						  :order => [:day, :month, :year],
+						  :start_year => Spec::START_YEAR,
+						  :end_year => Time.now.year,
+						  :include_blank => true,
+						  :use_month_numbers => true %></div>
+		<div class='form_row'><label for="zip_code">PLZ</label>
+		<%= f.text_field :zip_code, :size => 5 %></div>
+		<div class='form_row'><label for="city">Stadt</label>
+		<%= f.text_field :city, :size => 40 %></div>
+		<div class='form_row'><label for="street_adress">Adresse</label>
+		<%= f.text_field :street_adress, :size => 40 %></div>
+		<div class='form_row'><label for="children">Kinder?</label>
+		<%= f.check_box :children %></div>
+		<div class='form_row'><label for="children_wanted">Kinderwunsch?</label>
+		<%= f.check_box :children_wanted %></div>		
+		<div class='submit'><%= submit_tag 'Speichern'.t %></div>		
+	</fieldset>
+		
+	<fieldset>
+		<legend>weitere Angaben</legend>
+		<div class='form_row'>
+			<label for="description">Beschreibung</label>
+			<%= f.text_area :description %>
+		</div>
+		<div class='form_row'><label for="body_type">Figur</label>
+		<%= f.select :body_type, Spec::BODY_TYPES %></div>
+		<div class='form_row'><label for="height">Größe</label>
+		<%= f.text_field :height, :size => 5 %>cm</div>
+		<div class='form_row'><label for="weigth">Gewicht</label>
+		<%= f.text_field :weigth, :size => 5 %>Kg</div>
+		<div class='form_row'><label for="eye_color">Augenfarbe</label>
+		<%= f.select :eye_color, Spec::EYE_COLORS %></div>
+		<div class='form_row'><label for="hair_color">Haarfarbe</label>
+		<%= f.select :hair_color, Spec::HAIR_COLORS %></div>
+		<div class='form_row'><label for="hair_length">Haarlänge</label>
+		<%= f.select :hair_length, Spec::HAIR_LENGTHS %></div>
+		<div class='form_row'><label for="body_hair">Körperbehaarung</label>
+		<%= f.select :body_hair, Spec::BODY_HAIR_TYPES %></div>
+		<div class='form_row'><label for="pubic_hair">Intimbehaarung</label>
+		<%= f.select :pubic_hair, Spec::PUBIC_HAIR_TYPES %></div>
+		<div class='form_row'><label for="tatoo">Tattoos?</label>
+		<%= f.check_box :tatoo %></div>
+		<div class='form_row'><label for="piercing">Piercings?</label>
+		<%= f.check_box :piercing %></div>
+		<div class='form_row'><label for="smoker">Raucher?</label>
+		<%= f.check_box :smoker %></div>
+		<div class='form_row'><label for="glasses">Brille</label>
+		<%= f.check_box :glasses %></div>
+		<div class='form_row'><label for="stds">Geschlechtskrankheiten</label>
+		<%= f.check_box :stds %></div>
+		<div class='form_row'><label for="hiv">HIV?</label>
+		<%= f.check_box :hiv %></div>
+		<div class='form_row'><label for="handicaped">Behinderung?</label>
+		<%= f.check_box :handicaped %></div>
+		<div class='form_row'>* - Pflichtfeld</div>
+		<div class='submit'><%= submit_tag 'Speichern'.t %></div>
+	</fieldset>
+	
+	<fieldset>
+		<legend>Deine Phantasien</legend>
+		<div class='form_row'>
+			<label for="phantasies">Phantasien</label>
+			<%= f.text_area :phantasies %>
+		</div>
+		<div class='submit'><%= submit_tag 'Speichern'.t %></div>
+	</fieldset>
+	
+	<fieldset>
+		<legend>Weibliche Details</legend>
+		<div class='form_row'><label for="breast_cup">Körbchengröße</label>
+		<%= f.select :breast_cup, Spec::BREAST_CUPS, :include_blank => true %></div>		
+	</fieldset>
+	
+	<fieldset>
+		<legend>Männliche Details</legend>
+		<div class='form_row'><label for="penis_length">Penislänge</label>
+		<%= f.text_field :penis_length, :size => 5 %>cm</div>
+		<div class='form_row'><label for="penis_diameter">Penisdurchmesser</label>
+		<%= f.text_field :penis_diameter, :size => 5 %>cm</div>
+	</fieldset>
+	
+<% end %>

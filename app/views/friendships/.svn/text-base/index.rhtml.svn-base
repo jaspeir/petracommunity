@@ -1,0 +1,9 @@
+<%= link_to "#{@requested}", :action => "show_requested" %> unbeantwortete Freundschaftseinladung
+<br />
+
+<h3>Freunde:</h3>
+<% @friends.each do |friend| %>
+	<%= link_to "#{friend.login}", :controller => "profiles", 
+																	:action => "show",
+																	:id => friend.login  %><br />
+<% end %>

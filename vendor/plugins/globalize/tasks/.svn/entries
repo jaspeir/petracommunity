@@ -1,0 +1,52 @@
+8
+
+dir
+36
+https://petra2008.googlecode.com/svn/trunk/vendor/plugins/globalize/tasks
+https://petra2008.googlecode.com/svn
+
+
+
+2007-11-16T19:55:58.584778Z
+15
+1000Partner
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b70135a9-873c-0410-89b3-73a00b05a896
+
+migration_tools.rake
+file
+
+
+
+
+2008-01-07T10:13:17.000000Z
+34ed2fc0acc5c819b13f4db68ebe9bf0
+2007-11-16T19:55:58.584778Z
+15
+1000Partner
+
+data.rake
+file
+
+
+
+
+2008-01-07T10:13:17.000000Z
+493c76800a9a6815e1e43c06d467883f
+2007-11-16T19:55:58.584778Z
+15
+1000Partner
+

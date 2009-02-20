@@ -1,0 +1,103 @@
+8
+
+dir
+36
+https://petra2008.googlecode.com/svn/trunk/vendor/plugins/acts_as_ferret
+https://petra2008.googlecode.com/svn
+
+
+
+2008-01-10T11:41:54.104039Z
+32
+1000Partner
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b70135a9-873c-0410-89b3-73a00b05a896
+
+LICENSE
+file
+
+
+
+
+2008-01-10T23:39:50.000000Z
+a129731dca94cd53c8b9e7c52f0e2bea
+2008-01-10T11:41:54.104039Z
+32
+1000Partner
+
+rakefile
+file
+
+
+
+
+2008-01-10T23:39:50.000000Z
+007cf1f8beeebcb2e3bf7cce71534041
+2008-01-10T11:41:54.104039Z
+32
+1000Partner
+
+script
+dir
+
+config
+dir
+
+doc
+dir
+
+init.rb
+file
+
+
+
+
+2008-01-10T23:39:50.000000Z
+b2190f43e09c6ff8435a81db5b0c0211
+2008-01-10T11:41:54.104039Z
+32
+1000Partner
+
+lib
+dir
+
+bin
+dir
+
+install.rb
+file
+
+
+
+
+2008-01-10T23:39:50.000000Z
+db742724e6a1222f09227d99ebda0a3f
+2008-01-10T11:41:54.104039Z
+32
+1000Partner
+
+README
+file
+
+
+
+
+2008-01-10T23:39:50.000000Z
+02a344c7b81385869bbd66e3b436e558
+2008-01-10T11:41:54.104039Z
+32
+1000Partner
+

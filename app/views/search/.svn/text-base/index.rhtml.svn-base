@@ -1,0 +1,7 @@
+<% form_tag :action => 'do' do -%>
+	<%= text_field :search, :string %>
+	<%= submit_tag 'Suche starten' %>
+<% end %>
+
+<br />
+

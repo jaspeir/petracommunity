@@ -1,0 +1,72 @@
+<%= error_messages_for :spec_general %>
+<% form_for :spec_general, :url => spec_general_path, :html => {:method => :put} do |f| %>
+	<fieldset>
+		<legend>Details bearbeiten</legend>
+		<p><label for="sexuality">Sexualität</label>
+		<%= f.select :sexuality, SpecGeneral::SEXUALITIES %></p>
+
+		<p><label for="birth_date">Geburtstag*</label>
+		<%= f.date_select :birth_date, 
+						  :order => [:day, :month, :year],
+						  :start_year => SpecGeneral::START_YEAR,
+						  :end_year => Time.now.year,
+						  :include_blank => true,
+						  :use_month_numbers => true %></p>
+
+		<p><label for="zip_code">PLZ</label>
+		<%= f.text_field :zip_code, :size => 5 %></p>
+		
+		<p><label for="city">Stadt</label>
+		<%= f.text_field :city, :size => 40 %></p>
+		
+		<p><label for="body_type">Figur</label>
+		<%= f.select :body_type, SpecGeneral::BODY_TYPES %></p>
+
+		<p><label for="height">Größe</label>
+		<%= f.text_field :height, :size => 5 %>cm</p>
+
+		<p><label for="weigth">Gewicht</label>
+		<%= f.text_field :weigth, :size => 5 %>Kg</p>
+		
+		<p><label for="eye_color">Augenfarbe</label>
+		<%= f.select :eye_color, SpecGeneral::EYE_COLORS %></p>
+
+		<p><label for="hair_color">Haarfarbe</label>
+		<%= f.select :hair_color, SpecGeneral::HAIR_COLORS %></p>
+
+		<p><label for="hair_length">Haarlänge</label>
+		<%= f.select :hair_length, SpecGeneral::HAIR_LENGTHS %></p>
+
+		<p><label for="body_hair">Körperbehaarung</label>
+		<%= f.select :body_hair, SpecGeneral::BODY_HAIR_TYPES %></p>
+
+		<p><label for="pubic_hair">Intimbehaarung</label>
+		<%= f.select :pubic_hair, SpecGeneral::PUBIC_HAIR_TYPES %></p>
+
+		<p><label for="tatoo">Tattoos?</label>
+		<%= f.check_box :tatoo %></p>
+
+		<p><label for="piercing">Piercings?</label>
+		<%= f.check_box :piercing %></p>
+
+		<p><label for="smoker">Raucher?</label>
+		<%= f.check_box :smoker %></p>
+
+		<p><label for="glasses">Brille</label>
+		<%= f.check_box :glasses %></p>
+
+		<p><label for="stds">Geschlechtskrankheiten</label>
+		<%= f.check_box :stds %></p>
+
+		<p><label for="hiv">HIV?</label>
+		<%= f.check_box :hiv %></p>
+
+		<p><label for="handicaped">Behinderung?</label>
+		<%= f.check_box :handicaped %></p>
+		
+		<p>* - Pflichtfeld</p>
+
+		 
+		<p><%= submit_tag 'Speichern'.t %></p>
+	</fieldset>
+<% end %>

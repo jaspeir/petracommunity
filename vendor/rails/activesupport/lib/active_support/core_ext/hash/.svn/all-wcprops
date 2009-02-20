@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/trunk/vendor/rails/activesupport/lib/active_support/core_ext/hash
+END
+indifferent_access.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2/trunk/vendor/rails/activesupport/lib/active_support/core_ext/hash/indifferent_access.rb
+END
+diff.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/vendor/rails/activesupport/lib/active_support/core_ext/hash/diff.rb
+END
+conversions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2/trunk/vendor/rails/activesupport/lib/active_support/core_ext/hash/conversions.rb
+END
+reverse_merge.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2/trunk/vendor/rails/activesupport/lib/active_support/core_ext/hash/reverse_merge.rb
+END
+keys.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/vendor/rails/activesupport/lib/active_support/core_ext/hash/keys.rb
+END

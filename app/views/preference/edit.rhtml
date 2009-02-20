@@ -1,0 +1,33 @@
+<%= error_messages_for :preference %>
+
+<% form_for :preference, :url => preference_path, :html => {:method => :put} do |f| %>
+
+	<fieldset>
+		<legend>Deine Vorlieben</legend>
+		<p>Wertung von -2 (Nein) bis 2 (Ja)</p>
+		<table>
+			<th></th>
+			<th>-2</th>
+			<th>-1</th>
+			<th>0</th>
+			<th>1</th>
+			<th>2</th>
+		<% Preference.content_columns.each do |column| %>
+		<tr class='form_row'><td><%= column.name.t %></td>
+			<td><%= f.radio_button column.name, '-2' %></td>
+			<td><%= f.radio_button column.name, '-1' %></td>
+			<td><%= f.radio_button column.name, '0' %></td>
+			<td><%= f.radio_button column.name, '1' %></td>
+			<td><%= f.radio_button column.name, '2' %></td>
+		</tr>
+		<% end %>
+		</table>
+		<div class='submit'><%= submit_tag 'Speichern'.t %></div>
+	</fieldset>
+
+	
+<% end %>
+
+<% @preference.attributes.each do |attribute| %>
+	<%= attribute.first %>
+<% end %>

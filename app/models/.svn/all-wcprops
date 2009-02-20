@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/33/trunk/app/models
+END
+preference.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/32/trunk/app/models/preference.rb
+END
+session.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/17/trunk/app/models/session.rb
+END
+login_info.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/23/trunk/app/models/login_info.rb
+END
+account_observer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/23/trunk/app/models/account_observer.rb
+END
+invitation.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/26/trunk/app/models/invitation.rb
+END
+message.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/29/trunk/app/models/message.rb
+END
+account_mailer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/29/trunk/app/models/account_mailer.rb
+END
+spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/33/trunk/app/models/spec.rb
+END
+invitation_observer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/23/trunk/app/models/invitation_observer.rb
+END
+friendship.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/23/trunk/app/models/friendship.rb
+END
+picture.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/21/trunk/app/models/picture.rb
+END
+message_observer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/29/trunk/app/models/message_observer.rb
+END
+account.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/32/trunk/app/models/account.rb
+END
+group.rb
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/27/trunk/app/models/group.rb
+END

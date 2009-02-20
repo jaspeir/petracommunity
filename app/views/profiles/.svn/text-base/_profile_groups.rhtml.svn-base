@@ -1,0 +1,4 @@
+<h4>Mitglied in folgenden Gruppen</h4>
+<% @account.groups.each do |group| %>
+	<%= link_to group.title, group_path(group) %>
+<% end %>

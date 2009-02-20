@@ -1,0 +1,8 @@
+<% content_for :title do %>
+Private-Beta-Phase
+<% end %>
+
+
+<p>
+	TODO: Anmeldung nur auf Einladung usw...
+</p>

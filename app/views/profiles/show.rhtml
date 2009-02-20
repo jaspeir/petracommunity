@@ -1,0 +1,28 @@
+<% if @spec.nil? %>
+	Profil unvollständig
+<% else %>
+	<%= render :partial => 'profile_mini_map' %>	
+	<%= render :partial => 'profile_data' %>
+	<%= render :partial => 'profile_pictures' %>
+	<%= render :partial => 'profile_groups' %>
+<% end %>
+
+<% if @account == current_account %>
+	<% content_for :nav_right do %>
+		<div><%= link_to "Details bearbeiten", :controller => "spec", :action => "edit" %></div>
+		<div><%= link_to "Vorlieben bearbeiten", edit_preference_path %></div>
+		<div><%= link_to "Bilder verwalten", pictures_path %></div>
+		<div><%= link_to "Freunde einladen", new_invitation_path %></div>
+		<div><%= link_to "Freunde verwalten", :controller => "friendships" %></div>
+	<% end %>
+<% else %>
+ 	<% content_for :nav_right do %>
+		<div><%= link_to "Mail senden", :controller => "messages", 
+																		:action => "send_to",
+																		:id => @account  %></div>
+		<div><%= link_to "zu meinen Freunden hinzufügen", 
+															:controller => "friendships", 
+															:action => "create",
+															:id => @account.login  %></div>
+	<% end %>
+<% end %>

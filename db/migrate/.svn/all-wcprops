@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/29/trunk/db/migrate
+END
+008_create_login_infos.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/15/trunk/db/migrate/008_create_login_infos.rb
+END
+004_create_spec_males.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/17/trunk/db/migrate/004_create_spec_males.rb
+END
+006_create_spec_generals.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/24/trunk/db/migrate/006_create_spec_generals.rb
+END
+002_create_accounts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/15/trunk/db/migrate/002_create_accounts.rb
+END
+019_create_messages.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/29/trunk/db/migrate/019_create_messages.rb
+END
+013_create_friendships.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/23/trunk/db/migrate/013_create_friendships.rb
+END
+011_add_account_main_picture.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/21/trunk/db/migrate/011_add_account_main_picture.rb
+END
+018_add_table_groups.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/27/trunk/db/migrate/018_add_table_groups.rb
+END
+007_create_moderators.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/15/trunk/db/migrate/007_create_moderators.rb
+END
+003_create_people.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/15/trunk/db/migrate/003_create_people.rb
+END
+010_add_pictures_approved_at_from.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/21/trunk/db/migrate/010_add_pictures_approved_at_from.rb
+END
+005_create_spec_females.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/17/trunk/db/migrate/005_create_spec_females.rb
+END
+017_refactoring_accounts_and_specs.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/26/trunk/db/migrate/017_refactoring_accounts_and_specs.rb
+END
+015_create_preferences.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/24/trunk/db/migrate/015_create_preferences.rb
+END
+009_create_pictures.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/21/trunk/db/migrate/009_create_pictures.rb
+END
+001_create_sessions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/15/trunk/db/migrate/001_create_sessions.rb
+END
+016_add_spec_general_childs.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/25/trunk/db/migrate/016_add_spec_general_childs.rb
+END
+014_add_spec_generals_geo_info.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/24/trunk/db/migrate/014_add_spec_generals_geo_info.rb
+END
+012_create_invitations.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/23/trunk/db/migrate/012_create_invitations.rb
+END

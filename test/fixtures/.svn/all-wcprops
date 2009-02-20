@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/29/trunk/test/fixtures
+END
+accounts.yml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/24/trunk/test/fixtures/accounts.yml
+END
+moderators.yml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/15/trunk/test/fixtures/moderators.yml
+END
+men.yml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/23/trunk/test/fixtures/men.yml
+END
+groups.yml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/27/trunk/test/fixtures/groups.yml
+END
+preferences.yml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/24/trunk/test/fixtures/preferences.yml
+END
+people.yml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/15/trunk/test/fixtures/people.yml
+END
+women.yml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/23/trunk/test/fixtures/women.yml
+END
+login_infos.yml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/15/trunk/test/fixtures/login_infos.yml
+END
+spec_females.yml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/15/trunk/test/fixtures/spec_females.yml
+END
+invitations.yml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/23/trunk/test/fixtures/invitations.yml
+END
+messages.yml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/29/trunk/test/fixtures/messages.yml
+END
+spec_generals.yml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/15/trunk/test/fixtures/spec_generals.yml
+END
+spec_males.yml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/15/trunk/test/fixtures/spec_males.yml
+END
+friendships.yml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/23/trunk/test/fixtures/friendships.yml
+END

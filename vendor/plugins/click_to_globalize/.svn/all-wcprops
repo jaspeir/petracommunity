@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/15/trunk/vendor/plugins/click_to_globalize
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/15/trunk/vendor/plugins/click_to_globalize/init.rb
+END
+install.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/15/trunk/vendor/plugins/click_to_globalize/install.rb
+END
+MIT-LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/15/trunk/vendor/plugins/click_to_globalize/MIT-LICENSE
+END
+uninstall.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/15/trunk/vendor/plugins/click_to_globalize/uninstall.rb
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/15/trunk/vendor/plugins/click_to_globalize/README
+END

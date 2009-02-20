@@ -1,0 +1,69 @@
+<h1>Profil von <%= h current_account.login %></h1>
+
+<div id="left_column">
+  <div class="sidebar_box">
+    <h2>
+      <span class="header">Account:</span>
+      <span class="edit_link"><%= link_to "(edit)", edit_account_path %></span>
+      <br clear="all" />
+    </h2>
+    <div class="sidebar_box_contents">
+      <table>
+        <tr>
+          <td class="label">Login:</td>
+          <td><%= @current_account.login %></td>
+        </tr>
+        <tr>
+          <td class="label">Email:</td>
+          <td><%= @current_account.email %></td>
+        </tr>
+        <tr>
+          <td class="label">Password:</td>
+          <td>********</td>
+        </tr>
+      </table>  
+    </div>
+  </div>
+  <div class="sidebar_box">
+  	<h2>
+  		<span class="header">Bilder</span>
+  		<span class="edit_link"><%= link_to "(verwalten)", pictures_path %></span>
+		<br clear="all" />
+  	</h2>
+		<div class="sidebar_box_contents">
+			<% unless current_account.main_picture.nil? %>
+				<p><%= image_tag(current_account.main_picture.public_filename(:thumb)) %></p>
+			<% end %>
+		</div>
+  </div>
+  <div class="sidebar_box">
+  	<h2>
+  		<span class="header">Freunde</span>
+		<br clear="all" />
+  	</h2>
+		<div class="sidebar_box_contents">
+			<p><%= link_to "Freunde zu poppster einladen", new_invitation_path %></p>
+			<p><%= link_to "Einladungen anzeigen", invitations_path %></p>
+			<p><%= current_account.requested_friends.size %>
+				Freundschaftseinladung(en)
+				<%= link_to "anzeigen", :controller => "friendships",
+				 						:action => "show_requested" %>
+			</p>
+			<p>
+				<%= current_account.friends.size %>
+				bestätigte Freunde
+				<%= link_to "anzeigen", :controller => "friendships", 
+										:action => "show_accepted" %>
+			</p>
+		</div>
+  </div>
+</div>
+
+
+
+<div id="main_content">
+<%= render :partial => 'spec_general/content_box' %>
+<% if @male %> <%= render :partial => 'spec_male/content_box' %> <% end %>
+<% if @female %> <%= render :partial => 'spec_female/content_box' %> <% end %>
+
+</div>

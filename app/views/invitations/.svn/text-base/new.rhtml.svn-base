@@ -1,0 +1,10 @@
+<%= error_messages_for :invitation %>
+<% form_for :invitation, :url => invitations_path do |f| -%>
+<fieldset>
+	<legend>Freund einladen</legend>
+	<p><label for="email">E-Mail</label>
+	<%= f.text_field :email %></p>
+	
+	<p><%= submit_tag 'Einladen'.t %></p>
+</fieldset>
+<% end -%>

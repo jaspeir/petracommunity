@@ -1,0 +1,30 @@
+<% unless @picture.account == current_account %>
+	Benutzer: <%= link_to "#{@picture.account.login}",
+	 									  :controller => "profiles", 
+											:action => "show", 
+											:id => @picture.account.login %>
+<% end %>
+    
+
+
+<h4><%= @picture.filename %></h4>
+<%= image_tag(@picture.public_filename) %><br />
+
+<h3>Details:</h3>
+Dateigröße:<%= @picture.size %><br />
+Höhe:<%= @picture.height %><br />
+Breite:<%= @picture.width %><br />
+Dateityp:<%= @picture.content_type %><br />
+geprüft:<%= @picture.approved?.to_s %><br />
+FSK18:<%= @picture.x_rated?.to_s %>
+
+<% content_for :nav_right do %>
+	<% if @picture.account == current_account %>
+		<div class="nav_link">
+		  <%= link_to "als Profilbild auswählen", select_as_main_picture_path(@picture), :method => :put -%>
+		</div>
+		<div class="nav_link">
+			<%= link_to "Bild löschen", picture_path(@picture), :method => :delete  %>
+		</div>
+	<% end %>
+<% end %>

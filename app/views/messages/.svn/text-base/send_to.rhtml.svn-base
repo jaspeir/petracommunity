@@ -1,0 +1,24 @@
+<%= error_messages_for :message %>
+
+<% form_for :message, :url => messages_path do |f| %>
+
+		<fieldset>
+			<legend>Neue Email</legend>
+			<div class='form_row'>
+				<label for="recipient">Empfänger</label>
+				<%= link_to @message.recipient.login, :controller => "profiles", 
+																								:action => "show",
+																								:id => @message.recipient.login %>
+			</div>
+			<div class='form_row'>
+				<label for="subject">Betreff</label>
+				<%= f.text_field :subject %>
+			</div>
+			<div class='form_row'>
+				<label for="body">Text</label>
+				<%= f.text_area :body %>
+			</div>
+			<div class='submit'><%= submit_tag 'Senden'.t %></div>
+		</fieldset>
+
+<% end %>

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/26/trunk/app/views/site
+END
+tmp_invite_only.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/23/trunk/app/views/site/tmp_invite_only.rhtml
+END
+greeting.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/26/trunk/app/views/site/greeting.rhtml
+END
+index.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/26/trunk/app/views/site/index.rhtml
+END
+agb.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/24/trunk/app/views/site/agb.rhtml
+END

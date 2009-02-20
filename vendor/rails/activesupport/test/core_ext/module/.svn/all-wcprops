@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/vendor/rails/activesupport/test/core_ext/module
+END
+attribute_accessor_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2/trunk/vendor/rails/activesupport/test/core_ext/module/attribute_accessor_test.rb
+END
+attr_internal_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/vendor/rails/activesupport/test/core_ext/module/attr_internal_test.rb
+END
+attribute_aliasing_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2/trunk/vendor/rails/activesupport/test/core_ext/module/attribute_aliasing_test.rb
+END
+attr_accessor_with_default.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/2/trunk/vendor/rails/activesupport/test/core_ext/module/attr_accessor_with_default.rb
+END

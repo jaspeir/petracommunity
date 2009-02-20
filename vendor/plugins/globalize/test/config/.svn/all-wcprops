@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/test/config
+END
+database.yml.default
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/test/config/database.yml.default
+END
+database.yml.example
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/test/config/database.yml.example
+END

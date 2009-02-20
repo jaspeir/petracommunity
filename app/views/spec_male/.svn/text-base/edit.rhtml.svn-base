@@ -1,0 +1,14 @@
+<%= error_messages_for :spec_male %>
+<% form_for :spec_male, :url => spec_male_path, :html => {:method => :put} do |f| %>
+	<fieldset>
+		<legend>Details bearbeiten</legend>
+
+		<p><label for="penis_length">Penis-Länge</label>
+		<%= f.text_field :penis_length, :size => 5 %> cm</p>
+
+		<p><label for="penis_diameter">Penis-Durchmesser</label>
+		<%= f.text_field :penis_diameter, :size => 5 %> cm</p>
+		 
+		<p><%= submit_tag 'Speichern'.t %></p>
+	</fieldset>
+<% end %>

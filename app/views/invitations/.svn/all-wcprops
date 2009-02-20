@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/23/trunk/app/views/invitations
+END
+index.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/23/trunk/app/views/invitations/index.rhtml
+END
+new.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/23/trunk/app/views/invitations/new.rhtml
+END

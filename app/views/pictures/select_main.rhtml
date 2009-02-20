@@ -1,0 +1,17 @@
+<div id="left_column">
+  <div class="sidebar_box">
+    <h2>
+      <span class="header">Aktionen:</span>
+      <br clear="all" />
+    </h2>
+    <div class="sidebar_box_contents">
+		<p><%= link_to "Bild hochladen", new_picture_path %></p>
+		<p><%= link_to "Profilbild festlegen", select_main_pictures_path %></p>
+	</div>
+  </div>
+</div>
+
+
+<div id="main_content">
+<%= render :partial => 'box_partials/content_box_picture_selection' %>
+</div>

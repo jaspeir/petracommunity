@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/lib/globalize/localization
+END
+locale.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/lib/globalize/localization/locale.rb
+END
+db_translate.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/lib/globalize/localization/db_translate.rb
+END
+supported_locales.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/lib/globalize/localization/supported_locales.rb
+END
+core_ext.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/lib/globalize/localization/core_ext.rb
+END
+rfc_3066.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/lib/globalize/localization/rfc_3066.rb
+END
+db_view_translator.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/lib/globalize/localization/db_view_translator.rb
+END
+core_ext_hooks.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/lib/globalize/localization/core_ext_hooks.rb
+END

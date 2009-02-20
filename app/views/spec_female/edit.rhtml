@@ -1,0 +1,11 @@
+<%= error_messages_for :spec_female %>
+<% form_for :spec_female, :url => spec_female_path, :html => {:method => :put} do |f| %>
+	<fieldset>
+		<legend>Details bearbeiten</legend>
+
+		<p><label for="breast_cup">Körbchengröße</label>
+		<%= f.select :breast_cup, SpecFemale::BREAST_CUP_TYPES %></p>
+
+		<p><%= submit_tag 'Speichern'.t %></p>
+	</fieldset>
+<% end %>

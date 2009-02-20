@@ -1,0 +1,24 @@
+<% unless account.nil? %>
+	<div class='mini_info_box'>
+		<div class='account_thumbnail'>
+			<% if account.main_picture.nil? %>
+				Kein Profilbild vorhanden
+			<% else %>
+				<%= image_tag(account.main_picture.public_filename(:thumb)) %>
+			<% end %>
+		</div>
+		<div class='account_details'>
+			<p>
+				<%= link_to account.login, :controller => "profiles", 
+	 									   :action => 'show', 
+										   :id => account.login %>
+				(<%= account.person.typ %>)
+			</p>
+			<p>
+				<%= account.person.age %>
+			</p>
+		</div>
+	</div>
+	<br clear="all" />
+	<hr />
+<% end %>

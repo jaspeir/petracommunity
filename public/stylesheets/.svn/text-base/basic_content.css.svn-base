@@ -1,0 +1,391 @@
+/* Content start */
+
+#content {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+	width:958px;
+	margin:0 auto;
+	padding-top:15px;
+	background: white;
+	border-left:1px solid #BCBCBC;
+	border-right:1px solid #BCBCBC;
+	border-bottom:1px solid #BCBCBC;
+
+}
+
+#content_innen {
+	width:930px;
+	margin:0 auto;
+}
+
+.content_innen {
+	width:100%;
+	margin:0 auto;
+}
+
+/* Content Center start */
+
+#Content_left {
+	float:left;
+	width:100%;
+	margin:0 auto;
+}
+
+.Content_left_innen {
+	width:930px;
+	margin:0 auto;
+}
+
+#Content_center {
+	float:left;
+	width:100%;
+	min-height:300px;
+	margin:0 auto;
+	background:#FFFFFF;	
+	margin-bottom:15px;
+	padding-top:15px;
+}
+
+.Content_center_innen {
+	width:900px;
+	padding: 0;
+	margin:0 auto;
+}
+
+.content_center_innen_navigation{
+float: left;
+width: 150;    
+
+
+}
+
+#loginbox_content_right {
+	float:right;
+	width:150px;
+}
+
+#loginbox_content_right #formular {
+	width:150px;
+	height:250px;
+	margin-bottom:0px;
+	overflow:hidden;
+}
+
+#formular  label.login {
+	width:100%;
+	margin-bottom:10px;
+	padding: 0px;
+}
+
+#formular  label.login input {
+	width: 150px;
+	margin-top: 3px;
+}
+
+.check_select_loginbox {
+	width:310px;
+	float:left;
+}
+
+.check_select {
+	width:310px;
+	float:left;
+	padding-top:12px;
+}
+
+.check_select select {
+	width:283px;
+}
+
+
+
+/** Blockheader **/
+
+
+.table_header, .table_header_corner_right {
+	width:100%;
+	height:24px;
+	background: #A9CCF4;
+	overflow:visible !important; overflow:hidden;
+}
+
+.table_header_corner_left{
+    width:25%;
+	height:24px;
+	background: #A9CCF4;
+	float: left;
+}
+
+.table_header h2	{
+	height:20px;
+	line-height:22px;
+	font-size:1.0em;
+	font-weight:bold;
+	color:#FFFFFF;
+	padding-left: 8px;
+	margin:0px;
+	
+
+}
+
+
+.table_header a:link, .table_header a:visited {
+	color:#FFFFFF;
+}
+
+.table_header a:hover {
+	color:#2579C2;
+}
+
+.table_header_corner_right h2	{
+	height:24px;
+	line-height:22px;
+	font-size:1.0em;
+	font-weight:bold;
+	color:#FFFFFF;
+	padding-left: 8px;
+	margin:0px;
+	
+
+}
+
+.table_header_corner_left h2	{
+	height:24px;
+	line-height:22px;
+	font-size:1.0em;
+	font-weight:bold;
+	color:#FFFFFF;
+	padding-left: 8px;
+	margin:0px;
+       }
+       
+       
+.table_headerwide {
+	width:100%;
+	height:24px;
+	background: #A9CCF4;
+}
+
+.table_headerwide h2	{
+	height:24px;
+	line-height:22px;
+	max-width:897px;
+	font-size:1.0em;
+	font-weight:bold;
+	color:#FFFFFF;
+	padding-left: 8px;
+	margin:0px;
+	border:1px solid;
+
+}
+
+
+.table_footer {
+	width:100%;
+	height:1px;
+        
+}
+
+
+.onethirdcontent {
+	width:290px;
+	float:left;
+	margin-bottom:15px;
+        padding-right: 8px;
+        padding-left: 8px;
+}
+
+.twothirdscontent {
+	width:580px;
+	float:left;
+        padding-right: 8px;
+        padding-left: 8px;
+}
+
+
+/* footer block start */
+
+#footer {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+	width:960px;
+	height:22px;
+	margin:0px auto;
+	margin-bottom:25px;
+        background:#73A1C9;
+	}
+
+#footer_navi {
+	padding-top:0px;
+	margin-left:12px;
+	margin-right:12px;
+	text-align:center;
+	font-size:11px;
+	color:#FFFFFF;
+}
+
+#footer_navi ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#footer_navi li {
+	display:inline;
+	margin:0;
+	padding:0;
+  }
+  
+#footer_navi a {
+	margin: 0 5px 0 5px;
+	padding:0;
+	color:#FFF;
+	font-size:0.9em;
+	text-decoration:none;
+  }
+
+#footer_navi a:hover {
+	margin: 0 5px 0 5px;
+	padding:0;
+	color:#FFF;
+	text-decoration:underline;
+  }
+
+.image_listed {
+	float:left;
+	width:50px;
+	line-height:47px;
+	margin-right:5px;
+	margin-bottom:1px;
+}
+
+
+.image_listed img {
+	max-height:50px;
+	max-width:50px;
+	vertical-align:middle;
+}
+
+.image_listed a:link, .image_listed a:visited {
+	display:block;
+	width:50px;
+	height:50px;
+	background:#FFFFFF;
+	border:1px solid #cccccc;
+	text-align:center;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.image_listed a:hover {
+	background:#87BDEC;
+	border:1px solid #3E90D7;
+	text-align:center;
+	margin:0 auto;
+}
+
+
+
+
+
+
+
+/* Railssapce original */
+
+#content {
+height: 100%;
+background: white;
+padding: 1em;
+}
+#content h1 {
+font-size: 18pt;
+}
+/* Hack to get IE to display fieldset/legend correctly */
+html fieldset {
+position: relative;
+}
+html legend {
+position:absolute;
+top: -1em;
+left: .5em;
+}
+html fieldset {
+position: relative;
+margin-top:1em;
+padding-top:2em;
+padding-bottom: 2em;
+}
+/* Form Styles */
+fieldset {
+background: #ddd;
+}
+legend {
+color: white;
+background: #3E90D7;
+padding: .4em 1em;
+}
+label {
+width: 10em;
+float: left;
+text-align: right;
+margin-right: 0.2em;
+display: block;
+}
+.form_row {
+white-space: nowrap;
+padding-bottom: .5em;
+}
+.submit {
+margin-left: 15em;
+}
+
+/* Debug Style */
+.debug_dump {
+text-align: left;
+border-top: 1px dashed black;
+background: #ccc; margin: 0;
+padding: 0.5em;
+}
+
+/* Error Reporting Styles */
+.fieldWithErrors {
+margin: 2px;
+padding: 2px;
+background-color: red;
+display: table;
+}
+
+#errorExplanation {
+border: 2px solid red;
+padding: 7px;
+padding-bottom: 12px;
+margin-bottom: 20px;
+background-color: #f0f0f0;
+}
+#errorExplanation h2 {
+text-align: left;
+font-weight: bold;
+padding: 5px 5px 5px 15px;
+font-size: 12pt;
+margin: -7px;
+background-color: #c00;
+color: #fff;
+}
+#errorExplanation p {
+color: #333;
+margin-bottom: 0;
+padding: 5px;
+}
+#errorExplanation ul li {
+font-size: 11pt;
+list-style: square;
+}
+
+/* Flash Notice Style */
+#notice {
+border: 1px solid green;
+padding: 1em;
+margin: 1em;
+margin-bottom: 2em;
+background-color: lightgray;
+font: bold smaller sans-serif;
+}
+

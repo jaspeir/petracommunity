@@ -1,0 +1,52 @@
+8
+
+dir
+36
+https://petra2008.googlecode.com/svn/trunk/vendor/plugins/click_to_globalize/test/lib
+https://petra2008.googlecode.com/svn
+
+
+
+2007-11-16T19:55:58.584778Z
+15
+1000Partner
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b70135a9-873c-0410-89b3-73a00b05a896
+
+unittest.js
+file
+
+
+
+
+2008-01-07T10:13:01.000000Z
+b251ba62b13c590fda54147cbf2e7ce6
+2007-11-16T19:55:58.584778Z
+15
+1000Partner
+
+jstest.rb
+file
+
+
+
+
+2008-01-07T10:13:01.000000Z
+b4bb6d820a081568efd0ac1dda54d546
+2007-11-16T19:55:58.584778Z
+15
+1000Partner
+

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/17/trunk/app/views/person
+END
+create.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/17/trunk/app/views/person/create.rhtml
+END
+new.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/17/trunk/app/views/person/new.rhtml
+END

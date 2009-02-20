@@ -1,0 +1,119 @@
+8
+
+dir
+36
+https://petra2008.googlecode.com/svn/trunk/vendor/rails/railties
+https://petra2008.googlecode.com/svn
+
+
+
+2007-10-29T17:21:22.809303Z
+2
+1000Partner
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b70135a9-873c-0410-89b3-73a00b05a896
+
+test
+dir
+
+Rakefile
+file
+
+
+
+
+2008-01-07T10:14:57.000000Z
+046ae25fd010c4e76ddeb258ecf727ce
+2007-10-29T17:21:22.809303Z
+2
+1000Partner
+
+dispatches
+dir
+
+environments
+dir
+
+CHANGELOG
+file
+
+
+
+
+2008-01-07T10:14:57.000000Z
+d96cd62cd818ae1a03c3c63fbe288516
+2007-10-29T17:21:22.809303Z
+2
+1000Partner
+
+configs
+dir
+
+README
+file
+
+
+
+
+2008-01-07T10:14:57.000000Z
+2ffe7715fd6ba5509508a29022c22a17
+2007-10-29T17:21:22.809303Z
+2
+1000Partner
+
+helpers
+dir
+
+html
+dir
+
+doc
+dir
+
+builtin
+dir
+
+lib
+dir
+
+bin
+dir
+
+fresh_rakefile
+file
+
+
+
+
+2008-01-07T10:14:57.000000Z
+17f2f134da4cd31ea095d5868ca89e86
+2007-10-29T17:21:22.809303Z
+2
+1000Partner
+has-props
+
+MIT-LICENSE
+file
+
+
+
+
+2008-01-07T10:14:57.000000Z
+f764e1184ad8e4b928e3fe1f60248b7d
+2007-10-29T17:21:22.809303Z
+2
+1000Partner
+

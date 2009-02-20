@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/24/trunk/app/views/account
+END
+_info_box_mini.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/24/trunk/app/views/account/_info_box_mini.rhtml
+END
+edit.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/16/trunk/app/views/account/edit.rhtml
+END
+new.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/24/trunk/app/views/account/new.rhtml
+END

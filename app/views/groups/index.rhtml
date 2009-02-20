@@ -1,0 +1,9 @@
+<h1>Gruppen</h1>
+
+<% for group in @groups %>
+	<%= link_to group.title, group_path(group) %>
+<% end %>
+
+<% content_for :nav_right do %>
+	<div><%= link_to "neue Gruppe anmelden", new_group_path %></div>
+<% end %>

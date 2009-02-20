@@ -1,0 +1,55 @@
+8
+
+dir
+36
+https://petra2008.googlecode.com/svn/trunk/vendor/rails/activesupport/lib/active_support/vendor
+https://petra2008.googlecode.com/svn
+
+
+
+2007-10-29T17:21:22.809303Z
+2
+1000Partner
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b70135a9-873c-0410-89b3-73a00b05a896
+
+builder
+dir
+
+builder.rb
+file
+
+
+
+
+2008-01-07T10:13:37.000000Z
+80f725825cbd92437a509360081ba3af
+2007-10-29T17:21:22.809303Z
+2
+1000Partner
+
+xml_simple.rb
+file
+
+
+
+
+2008-01-07T10:13:37.000000Z
+9fb25e1745ab241d7cbeab28e3623db2
+2007-10-29T17:21:22.809303Z
+2
+1000Partner
+

@@ -1,0 +1,34 @@
+<div class='profile_name'>
+	<%= @account.login %><% if @account.admin? %> (admin)<% end %>
+</div>
+<div class='Profile_basic_dates'>
+	<%= @spec.gender %>(<%= @spec.age %>) aus <%= @spec.zip_code %>,<%= @spec.city %>
+</div>
+
+<div class='profile_data'>
+	<div class='data_row'>Sexualität: <%= @spec.sexuality %></div>
+	<div class='data_row'>Geburtstag: <%= @spec.birth_date.strftime('%d.%m.%Y') %></div>
+	<div class='data_row'>Kinder: <%= @spec.children %></div>
+	<div class='data_row'>Kinderwunsch: <%= @spec.children_wanted %></div>
+	<div class='data_row'>Beschreibung: <%= @spec.description %></div>
+	<div class='data_row'>Figur: <%= @spec.body_type %></div>
+	<div class='data_row'>Größe: <%= @spec.height %></div>
+	<div class='data_row'>Gewicht: <%= @spec.weigth %></div>
+	<div class='data_row'>Augenfarbe: <%= @spec.eye_color %></div>
+	<div class='data_row'>Haarfarbe: <%= @spec.hair_color %></div>
+	<div class='data_row'>Haarlänge: <%= @spec.hair_length %></div>
+	<div class='data_row'>Körperbehaarung: <%= @spec.body_hair %></div>
+	<div class='data_row'>Intimbehaarung: <%= @spec.pubic_hair %></div>
+	<div class='data_row'>Tattos: <%= @spec.tatoo %></div>
+	<div class='data_row'>Piercings: <%= @spec.piercing %></div>
+	<div class='data_row'>Raucher: <%= @spec.smoker %></div>
+	<div class='data_row'>Brille: <%= @spec.glasses %></div>
+	<div class='data_row'>Geschlechtskrankheiten: <%= @spec.stds? %></div>
+	<div class='data_row'>HIV: <%= @spec.hiv %></div>
+	<div class='data_row'>Behinderung: <%= @spec.handicaped %></div>
+	<div class='data_row'>Phantasien: <%= @spec.phantasies %></div>
+	<div class='data_row'>Körbchengröße: <%= @spec.breast_cup %></div>
+	<div class='data_row'>Penislänge: <%= @spec.penis_length %></div>
+	<div class='data_row'>Penisdurchmesser: <%= @spec.penis_diameter %></div>
+
+</div>

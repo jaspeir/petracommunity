@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/lib/globalize/rails
+END
+action_mailer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/lib/globalize/rails/action_mailer.rb
+END
+action_view.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/lib/globalize/rails/action_view.rb
+END
+active_record_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/lib/globalize/rails/active_record_helper.rb
+END
+active_record.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/lib/globalize/rails/active_record.rb
+END
+date_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/lib/globalize/rails/date_helper.rb
+END

@@ -1,0 +1,55 @@
+8
+
+dir
+36
+https://petra2008.googlecode.com/svn/trunk/vendor/rails/railties/lib/rails_generator/generators/components/model
+https://petra2008.googlecode.com/svn
+
+
+
+2007-10-29T17:21:22.809303Z
+2
+1000Partner
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b70135a9-873c-0410-89b3-73a00b05a896
+
+USAGE
+file
+
+
+
+
+2008-01-07T10:14:48.000000Z
+c37e1dc546f6350aa4e1991d6ecf9636
+2007-10-29T17:21:22.809303Z
+2
+1000Partner
+
+model_generator.rb
+file
+
+
+
+
+2008-01-07T10:14:48.000000Z
+4869d787d3871305c5c5f721ecc31f63
+2007-10-29T17:21:22.809303Z
+2
+1000Partner
+
+templates
+dir
+

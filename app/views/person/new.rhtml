@@ -1,0 +1,12 @@
+<%= error_messages_for :person %>
+<% form_for :person, :url => person_path do |f| %>
+	<fieldset>
+		<legend>Geschlecht</legend>
+		<p>
+			<label for ='type'>Ich bin ein/e</label>
+			<%= f.radio_button :typ, 'Mann' %>Mann 
+			<%= f.radio_button :typ, 'Frau' %>Frau
+		</p>
+		<p><%= submit_tag 'Speichern'.t %></p>
+	</fieldset>
+<% end %>

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/tasks
+END
+migration_tools.rake
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/tasks/migration_tools.rake
+END
+data.rake
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/tasks/data.rake
+END

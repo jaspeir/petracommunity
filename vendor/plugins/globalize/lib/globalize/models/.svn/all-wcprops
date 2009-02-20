@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/lib/globalize/models
+END
+translation.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/lib/globalize/models/translation.rb
+END
+model_translation.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/lib/globalize/models/model_translation.rb
+END
+language.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/lib/globalize/models/language.rb
+END
+country.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/lib/globalize/models/country.rb
+END
+view_translation.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/lib/globalize/models/view_translation.rb
+END
+currency.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/15/trunk/vendor/plugins/globalize/lib/globalize/models/currency.rb
+END

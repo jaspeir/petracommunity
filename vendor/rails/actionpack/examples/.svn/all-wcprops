@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/vendor/rails/actionpack/examples
+END
+address_book_controller.cgi
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/vendor/rails/actionpack/examples/address_book_controller.cgi
+END
+address_book_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/trunk/vendor/rails/actionpack/examples/address_book_controller.rb
+END
+blog_controller.cgi
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/trunk/vendor/rails/actionpack/examples/blog_controller.cgi
+END
+debate_controller.cgi
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/trunk/vendor/rails/actionpack/examples/debate_controller.cgi
+END
+address_book_controller.fcgi
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/vendor/rails/actionpack/examples/address_book_controller.fcgi
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2/trunk/vendor/rails/actionpack/examples/.htaccess
+END
+benchmark.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/trunk/vendor/rails/actionpack/examples/benchmark.rb
+END
+address_book_controller.rbx
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/vendor/rails/actionpack/examples/address_book_controller.rbx
+END
+benchmark_with_ar.fcgi
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2/trunk/vendor/rails/actionpack/examples/benchmark_with_ar.fcgi
+END

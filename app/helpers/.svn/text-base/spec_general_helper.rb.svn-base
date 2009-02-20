@@ -1,0 +1,2 @@
+module SpecGeneralHelper
+end

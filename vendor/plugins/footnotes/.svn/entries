@@ -1,0 +1,49 @@
+8
+
+dir
+36
+https://petra2008.googlecode.com/svn/trunk/vendor/plugins/footnotes
+https://petra2008.googlecode.com/svn
+
+
+
+2007-10-31T18:43:58.620737Z
+5
+1000Partner
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b70135a9-873c-0410-89b3-73a00b05a896
+
+test
+dir
+
+init.rb
+file
+
+
+
+
+2008-01-07T10:13:04.000000Z
+befa9633457c8aa1283ba97393206263
+2007-10-31T18:43:58.620737Z
+5
+1000Partner
+
+lib
+dir
+
+templates
+dir
+

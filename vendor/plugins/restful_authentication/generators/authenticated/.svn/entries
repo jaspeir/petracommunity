@@ -1,0 +1,55 @@
+8
+
+dir
+36
+https://petra2008.googlecode.com/svn/trunk/vendor/plugins/restful_authentication/generators/authenticated
+https://petra2008.googlecode.com/svn
+
+
+
+2007-11-16T19:55:58.584778Z
+15
+1000Partner
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b70135a9-873c-0410-89b3-73a00b05a896
+
+USAGE
+file
+
+
+
+
+2008-01-07T10:13:10.000000Z
+cdb2aed081ecd6e02941a4f298da3e72
+2007-11-16T19:55:58.584778Z
+15
+1000Partner
+
+authenticated_generator.rb
+file
+
+
+
+
+2008-01-07T10:13:10.000000Z
+831670067ab3050598ee87994237037f
+2007-11-16T19:55:58.584778Z
+15
+1000Partner
+
+templates
+dir
+

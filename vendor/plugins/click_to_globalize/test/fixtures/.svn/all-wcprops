@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/15/trunk/vendor/plugins/click_to_globalize/test/fixtures
+END
+globalize_countries.yml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/15/trunk/vendor/plugins/click_to_globalize/test/fixtures/globalize_countries.yml
+END
+globalize_translations.yml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/15/trunk/vendor/plugins/click_to_globalize/test/fixtures/globalize_translations.yml
+END
+globalize_languages.yml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/15/trunk/vendor/plugins/click_to_globalize/test/fixtures/globalize_languages.yml
+END

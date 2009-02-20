@@ -1,0 +1,62 @@
+<div class="content_box">
+	<h2>
+	  <span class="header">Eigenschaften</span>
+	  <span class="edit_link"><%= link_to "(edit)", edit_spec_general_path %></span>
+	  <br />
+	</h2>
+	<div class="content_box_contents">
+	  <table>
+		<tr><td class="label">Sexualität</td>
+			<td><%= current_account.person.spec_general.sexuality %></td>
+		</tr>
+		<tr><td class="label">Geburtstag</td>
+			<td><%= current_account.person.spec_general.birth_date.loc("%d.%m.%Y") %></td>
+		</tr>
+		<tr><td class="label">Figur</td>
+			<td><%= current_account.person.spec_general.body_type %></td>
+		</tr>
+		<tr><td class="label">Größe</td>
+			<td><%= current_account.person.spec_general.height %> cm</td>
+		</tr>
+		<tr><td class="label">Gewicht</td>
+			<td><%= current_account.person.spec_general.weigth %> Kg</td>
+		</tr>
+		<tr><td class="label">Augenfarbe</td>
+			<td><%= current_account.person.spec_general.eye_color %></td>
+		</tr>
+		<tr><td class="label">Haarfarbe</td>
+			<td><%= current_account.person.spec_general.hair_color %></td>
+		</tr>
+		<tr><td class="label">Haarlänge</td>
+			<td><%= current_account.person.spec_general.hair_length %></td>
+		</tr>
+		<tr><td class="label">Körperbehaarung</td>
+			<td><%= current_account.person.spec_general.body_hair %></td>
+		</tr>
+		<tr><td class="label">Intimbehaarung</td>
+			<td><%= current_account.person.spec_general.pubic_hair %></td>
+		</tr>
+		<tr><td class="label">Tattoos</td>
+			<td><%= current_account.person.spec_general.tatoo.to_s.t %></td>
+		</tr>
+		<tr><td class="label">Piercings</td>
+			<td><%= current_account.person.spec_general.piercing.to_s.t %></td>
+		</tr>
+		<tr><td class="label">Raucher</td>
+			<td><%= current_account.person.spec_general.smoker.to_s.t %></td>
+		</tr>
+		<tr><td class="label">Brille</td>
+			<td><%= current_account.person.spec_general.glasses.to_s.t %></td>
+		</tr>
+		<tr><td class="label">Geschlechtskrankheiten</td>
+			<td><%= current_account.person.spec_general.stds.to_s.t %></td>
+		</tr>
+		<tr><td class="label">HIV</td>
+			<td><%= current_account.person.spec_general.hiv.to_s.t %></td>
+		</tr>
+		<tr><td class="label">Behinderung</td>
+			<td><%= current_account.person.spec_general.handicaped.to_s.t %></td>
+		</tr>
+	  </table>
+	</div>
+</div>

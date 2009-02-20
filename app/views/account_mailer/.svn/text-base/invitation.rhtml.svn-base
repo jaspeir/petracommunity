@@ -1,0 +1,7 @@
+Du wurdest zu Poppster eingeladen.
+
+Um die Einladung anzunehmen, klicke folgenden Link:
+
+<%= confirm_invitation_url(@invitation.invitation_token) %>
+
+nur zum Testen: http://localhost:3000/confirm/<%= @invitation.invitation_token %>

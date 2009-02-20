@@ -1,0 +1,144 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	background-color: #eee;
+}
+
+#header{
+	height: 100px;
+}
+
+#header_left{
+	float: left;
+	height: 100px;
+}
+
+#header_center{
+	height: 100px;
+	width: auto;
+	background: url(/images/logo_small2.png) repeat-x scroll;
+	text-align: center;
+	padding-top: 20px;
+	font-size: xx-large;
+}
+
+#header_right{
+	float: right;
+	height: 100px;
+	width: 200px;
+}
+
+#header_login{
+	height: 40px;
+	padding-top: 5px;
+}
+
+#header_usercounter{
+}
+
+#nav{
+	clear: both;
+	background-color: #13252A; 
+	color: white;
+	height: 20px;
+}
+
+#nav * {
+	margin: 0px;
+	padding: 0px;
+}
+
+#nav a{
+	text-decoration: none;
+	color: #666;
+}
+
+#nav li{
+	display: inline;
+	padding: 5px;
+}
+
+#nav .current_link{
+	background-color: #eee;
+}
+
+#nav .link{
+}
+
+
+#main{
+	margin: 2px;
+}
+
+#main_right{
+	float: right;
+	width: 40%;
+}
+
+#main_left{
+	width: 60%;
+	padding: 10px;
+}
+
+.content_row{
+	border-top: 1px solid;
+	padding: 5px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0px;
+	padding: 0px;
+}
+
+.profile_name{
+	font-size: large;
+	font-weight: bold;
+}
+
+/* Hack to get IE to display fieldset/legend correctly */
+html fieldset {
+position: relative;
+}
+html legend {
+position:absolute;
+top: -1em;
+left: .5em;
+}
+html fieldset {
+position: relative;
+margin-top:1em;
+padding-top:2em;
+padding-bottom: 2em;
+}
+/* Form Styles */
+fieldset {
+background: #ddd;
+}
+legend {
+color: white;
+background: #386774;
+padding: .4em 1em;
+}
+label {
+width: 10em;
+float: left;
+text-align: right;
+margin-right: 0.2em;
+display: block;
+}
+.form_row {
+white-space: nowrap;
+padding-bottom: .5em;
+}
+.submit {
+margin-left: 15em;
+}
+
+#main_right .nav_link{
+	margin-bottom: 1px;
+}
+
+.picture_in_set{
+	float: left;
+	margin: 10px;
+}

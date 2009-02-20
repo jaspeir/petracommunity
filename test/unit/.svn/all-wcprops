@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/29/trunk/test/unit
+END
+preference_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/24/trunk/test/unit/preference_test.rb
+END
+woman_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/23/trunk/test/unit/woman_test.rb
+END
+login_info_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/15/trunk/test/unit/login_info_test.rb
+END
+message_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/29/trunk/test/unit/message_test.rb
+END
+invitation_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/23/trunk/test/unit/invitation_test.rb
+END
+account_mailer_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/15/trunk/test/unit/account_mailer_test.rb
+END
+spec_general_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/15/trunk/test/unit/spec_general_test.rb
+END
+spec_male_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/15/trunk/test/unit/spec_male_test.rb
+END
+friendship_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/23/trunk/test/unit/friendship_test.rb
+END
+message_observer_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/29/trunk/test/unit/message_observer_test.rb
+END
+group_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/27/trunk/test/unit/group_test.rb
+END
+account_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/15/trunk/test/unit/account_test.rb
+END
+moderator_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/15/trunk/test/unit/moderator_test.rb
+END
+spec_female_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/15/trunk/test/unit/spec_female_test.rb
+END
+person_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/15/trunk/test/unit/person_test.rb
+END
+man_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/23/trunk/test/unit/man_test.rb
+END

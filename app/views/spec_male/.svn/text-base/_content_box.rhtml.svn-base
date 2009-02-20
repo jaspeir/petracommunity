@@ -1,0 +1,17 @@
+<div class="content_box">
+	<h2>
+	  <span class="header">männliche Eigenschaften</span>
+	  <span class="edit_link"><%= link_to "(edit)", edit_spec_male_path %></span>
+	  <br />
+	</h2>
+	<div class="content_box_contents">
+	  <table>
+		<tr><td class="label">Penis-Länge</td>
+			<td><%= current_account.person.spec_male.penis_length %> cm</td>
+		</tr>
+		<tr><td class="label">Penis-Durchmesser</td>
+			<td><%= current_account.person.spec_male.penis_diameter %> cm</td>
+		</tr>
+	  </table>
+	</div>
+</div>

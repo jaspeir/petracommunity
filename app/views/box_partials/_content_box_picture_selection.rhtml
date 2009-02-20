@@ -1,0 +1,19 @@
+<% unless @pictures.nil? %>
+	<div class="content_box">
+		<h2>
+		  <span class="header">Bilder</span>
+		  <br />
+		</h2>
+		<div class="content_box_contents">
+			<p>
+			  <% @pictures.each do |picture| %>
+				<%= image_tag(picture.public_filename(:thumb)) %>
+				<%= button_to "Als Profilbild festlegen", select_as_main_picture_path(picture), :method => :put  %>
+	 		  <% end %>	
+			</p>
+		</div>
+	</div>
+<% else %>
+Leider sind keine freigegebenen Bilder vorhanden. Bitte gedulde Dich noch ein wenig, bis unser Team
+Deine Bilder gesichtet und freigegeben hat.
+<% end %>

@@ -1,0 +1,18 @@
+matas:
+  id: 1
+  login: matas
+  email: matas@habsch.net
+  admin: true
+  salt: c93b743a385e427e3adfd539d9c91a916114ffa7
+  crypted_password: 6a43c87d10046f45568ae1dfb40ba617641cbcbb
+  created_at: <%= 5.days.ago.to_s :db %>
+  activated_at: <%= 5.days.ago.to_s :db %> 
+schroedi:
+  id: 2
+  login: schroedi
+  email: schroedi2001@mac.com
+  admin: true
+  salt: 9062fce3702f24a9e9100704bfbcce9d0c44ec10
+  crypted_password: 170643166c7a2b5307a4992f4669364c05db79b6
+  created_at: <%= 1.days.ago.to_s :db %>
+  activated_at: <%= 1.days.ago.to_s :db %>

@@ -1,0 +1,14 @@
+<h1><%= @group.title %></h1>
+Mitglieder:<br />
+<% @group.accounts.each do |account| %>
+	<%= link_to account.login, :controller => "profiles", :action => "show", 
+														 :id => account.login  %>
+<% end %>
+
+
+<% content_for :nav_right do %>
+	<div><%= link_to "dieser Gruppe beitreten", :controller => "groups", 
+																							:action => "join",
+																							:id => @group.id %>
+	</div>
+<% end %>

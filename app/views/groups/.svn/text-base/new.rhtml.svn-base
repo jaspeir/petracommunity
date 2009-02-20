@@ -1,0 +1,14 @@
+<%= error_messages_for :group %>
+
+<% form_for :group, :url => groups_path, :html => {:method => :post} do |f| %>
+
+<fieldset>
+	<legend>Neue Gruppe anmelden</legend>
+	<div class='form_row'>
+		<label for="title">Gruppenname</label>
+		<%= f.text_field :title %>
+	</div>
+	<div class='submit'><%= submit_tag 'Speichern'.t %></div>
+</fieldset>
+
+<% end %>

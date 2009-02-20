@@ -1,0 +1,12 @@
+<% content_for :nav_right do %>
+	<div class='nav_link'>
+		<%= link_to "Bild hochladen", new_picture_path %>
+	</div>
+	<div class='nav_link'>
+		<%= link_to "Profilbild festlegen", select_main_pictures_path %>
+	</div>
+<% end %>
+
+<div id="main_content">
+<%= render :partial => 'box_partials/content_box_picture_collection' %>
+</div>

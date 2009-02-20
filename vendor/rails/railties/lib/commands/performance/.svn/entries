@@ -1,0 +1,52 @@
+8
+
+dir
+36
+https://petra2008.googlecode.com/svn/trunk/vendor/rails/railties/lib/commands/performance
+https://petra2008.googlecode.com/svn
+
+
+
+2007-10-29T17:21:22.809303Z
+2
+1000Partner
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b70135a9-873c-0410-89b3-73a00b05a896
+
+benchmarker.rb
+file
+
+
+
+
+2008-01-07T10:14:52.000000Z
+898f1f600e94cf8bb689cdd9d88712b5
+2007-10-29T17:21:22.809303Z
+2
+1000Partner
+
+profiler.rb
+file
+
+
+
+
+2008-01-07T10:14:52.000000Z
+a48e1dae0301479aa46f4f5c76f0e963
+2007-10-29T17:21:22.809303Z
+2
+1000Partner
+

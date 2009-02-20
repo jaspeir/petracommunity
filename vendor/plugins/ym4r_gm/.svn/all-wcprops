@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/26/trunk/vendor/plugins/ym4r_gm
+END
+rakefile.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/26/trunk/vendor/plugins/ym4r_gm/rakefile.rb
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/26/trunk/vendor/plugins/ym4r_gm/init.rb
+END
+install.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/26/trunk/vendor/plugins/ym4r_gm/install.rb
+END
+gmaps_api_key.yml.sample
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/26/trunk/vendor/plugins/ym4r_gm/gmaps_api_key.yml.sample
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/26/trunk/vendor/plugins/ym4r_gm/README
+END

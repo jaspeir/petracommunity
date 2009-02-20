@@ -1,0 +1,18 @@
+#Fill here the Google Maps API keys for your application
+#In this sample:
+#For development and test, we have only one possible host (localhost:3000), so there is only a single key associated with the mode.
+#In production, the app can be accessed through 2 different hosts: thepochisuperstarmegashow.com and exmaple.com. There then needs a 2-key hash. If you deployed to one host, only the API key would be needed (as in development and test).
+
+development:
+# localhost:3000 ABQIAAAAwHPzShAAi5qjjBKXgrF07BT2yXp_ZAY8_ufC3CFXhHIE1NvwkxRgykBEfq6mjoXt9q-mwsJPArK_dQ
+# 192.168.178.43:3000 ABQIAAAAwHPzShAAi5qjjBKXgrF07BQNa3WWkgRbAqjBJsaoOEzFQkKCRRQpP-rFkPgshewBqkaAxgpUMjPuXg
+# www.poppster.de ABQIAAAAwHPzShAAi5qjjBKXgrF07BS4YK-uYvvFF6mutydQC4YjiDA_yRTNQeKNF1e6L8GqE9PAkq1Y8e_LQw
+ ABQIAAAAwHPzShAAi5qjjBKXgrF07BR1MWILZYcAkWxy5xItGJtaUiIgpRRhUFIcNoLHthXc3qDFcO8MwxvVfw
+ 
+test:
+ ABQIAAAAwHPzShAAi5qjjBKXgrF07BT2yXp_ZAY8_ufC3CFXhHIE1NvwkxRgykBEfq6mjoXt9q-mwsJPArK_dQ 
+
+production:
+ ABQIAAAAwHPzShAAi5qjjBKXgrF07BT2yXp_ZAY8_ufC3CFXhHIE1NvwkxRgykBEfq6mjoXt9q-mwsJPArK_dQ
+# thepochisuperstarmegashow.com: ABQIAAAAzMUFFnT9uH0Sfg76Y4kbhTJQa0g3IQ9GZqIMmInSLzwtGDmlRT6e90j135zat56yhJKQlWnkaidDIQ
+# example.com: ABQIAAAAzMUFFnT9uH0Sfg98Y4kbhGFJQa0g3IQ9GZqIMmInSLrthJKGDmlRT98f4j135zat56yjRKQlWnkmod3TB

@@ -1,0 +1,18 @@
+class SiteController < ApplicationController
+
+  def greeting
+    if logged_in?
+      redirect_to :controller => "profiles", :action => 'show'
+    end
+  end
+  
+  def index
+    @top_ten = Account.find_complete[0..9]
+  end
+  
+  def tmp_invite_only
+  end
+  
+  def agb
+  end
+end

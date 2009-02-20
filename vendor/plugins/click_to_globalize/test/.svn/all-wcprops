@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/15/trunk/vendor/plugins/click_to_globalize/test
+END
+test_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/15/trunk/vendor/plugins/click_to_globalize/test/test_helper.rb
+END
+click_to_globalize_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/15/trunk/vendor/plugins/click_to_globalize/test/click_to_globalize_test.rb
+END
+console.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/15/trunk/vendor/plugins/click_to_globalize/test/console.html
+END
+test.css
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/15/trunk/vendor/plugins/click_to_globalize/test/test.css
+END
+browser.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/15/trunk/vendor/plugins/click_to_globalize/test/browser.html
+END

@@ -1,0 +1,8 @@
+<% @friends.each do |friend| %>
+	<%= friend.login %>
+	<% if params[:id] == "show_requested" %>
+		<%= link_to "Bestätigen", :controller => "friendships", 
+								  :action => "accept",
+								  :id => friend.login  %>
+	<% end  %>
+<% end %>

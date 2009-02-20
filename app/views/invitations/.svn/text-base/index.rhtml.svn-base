@@ -1,0 +1,6 @@
+<h4>An folgende Email-Adressen wurden Einladungen verschickt:</h4>
+<ul>
+	<% @invitations.each do |invitation| %>
+		<li><%= invitation.email %></li>
+	<% end %>
+</ul>

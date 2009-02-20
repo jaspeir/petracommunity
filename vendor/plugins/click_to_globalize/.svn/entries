@@ -1,0 +1,100 @@
+8
+
+dir
+36
+https://petra2008.googlecode.com/svn/trunk/vendor/plugins/click_to_globalize
+https://petra2008.googlecode.com/svn
+
+
+
+2007-11-16T19:55:58.584778Z
+15
+1000Partner
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b70135a9-873c-0410-89b3-73a00b05a896
+
+test
+dir
+
+tasks
+dir
+
+init.rb
+file
+
+
+
+
+2008-01-07T10:13:03.000000Z
+f715402a8868c7fb352462bbb55ce2be
+2007-11-16T19:55:58.584778Z
+15
+1000Partner
+
+lib
+dir
+
+install.rb
+file
+
+
+
+
+2008-01-07T10:13:03.000000Z
+112a22c01abede2cac2db48c805cd56e
+2007-11-16T19:55:58.584778Z
+15
+1000Partner
+
+MIT-LICENSE
+file
+
+
+
+
+2008-01-07T10:13:03.000000Z
+54a01a4df8c1d699999a4f5c37a0c616
+2007-11-16T19:55:58.584778Z
+15
+1000Partner
+
+uninstall.rb
+file
+
+
+
+
+2008-01-07T10:13:03.000000Z
+eb6b5d9b20bdd613c734839b650f06c0
+2007-11-16T19:55:58.584778Z
+15
+1000Partner
+
+README
+file
+
+
+
+
+2008-01-07T10:13:03.000000Z
+03af42fe52d75fd438644b21f0fd9950
+2007-11-16T19:55:58.584778Z
+15
+1000Partner
+
+templates
+dir
+

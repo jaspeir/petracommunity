@@ -1,0 +1,276 @@
+body {
+  font-family: sans-serif;
+  background: #E5F2FD url(/images/bg.gif) repeat-x scroll;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+#whole_page {
+  width: 95%;
+  margin: auto;
+  padding: 0;
+  text-align: left;
+  border-width:  1px 1px 1px 1px;
+  border-color:  #3377BB;
+  border-style:  solid;
+}
+
+#header {
+  color: black;
+  background: #3377BB;
+  font-size: 24pt;
+  padding: 0.25em;
+  margin-bottom: 0;
+}
+
+#header #user_counter {
+	float: right;
+	font-size: 10pt;
+}
+
+#nav {
+  color: black;
+  font-size: 12pt;
+  font-weight: bold;
+  background: #ccc;
+  padding: 0.5em;
+}
+
+#nav a, #nav a:visited  {
+  color: #3377BB;
+  text-decoration: none;
+}
+
+#nav a:hover {
+  border-bottom: 2px #3377BB;
+}
+
+#content {
+  height: 100%;
+  background:  white;
+  padding: 1em;
+}
+
+#content h1 {
+  font-size: 18pt;
+}
+
+/* Hack to get IE to display fieldset/legend correctly */ 
+html fieldset { 
+  position: relative; 
+} 
+
+html legend { 
+  position:absolute; 
+  top: -1em; 
+  left: .5em; 
+} 
+
+html fieldset { 
+  position: relative; 
+  margin-top:1em; 
+  padding-top:2em; 
+  padding-bottom: 2em; 
+} 
+
+/* Form Styles */ 
+fieldset { 
+  background: #ddd; 
+} 
+
+legend { 
+  color: white; 
+  background: #3377BB; 
+  padding: .4em 1em; 
+} 
+
+label { 
+  width: 10em; 
+  float: left; 
+  text-align: right; 
+  margin-right: 0.2em; 
+  display: block; 
+} 
+
+.form_row { 
+  white-space: nowrap; 
+  padding-bottom: .5em; 
+} 
+
+.submit { 
+  margin-left: 15em; 
+}
+
+/* Debug Style */
+
+#debug {
+  margin-top: 1em;
+  margin-left: auto;
+}
+#debug a, #debug a.visited {
+  text-decoration: none;
+  color: #3377BB;
+}
+fieldset.debug_info {
+  text-align: left; 
+  margin: 1em; 
+  background: #eee;
+}
+
+/* Error Reporting Styles */ 
+.fieldWithErrors { 
+  margin: 2px; 
+  padding: 2px; 
+  background-color: red; 
+  display: table; 
+} 
+
+#errorExplanation { 
+  border: 2px solid red; 
+  padding: 7px; 
+  padding-bottom: 12px; 
+  margin-bottom: 20px; 
+  background-color: #f0f0f0; 
+} 
+
+#errorExplanation h2 { 
+  text-align: left; 
+  font-weight: bold; 
+  padding: 5px 5px 5px 15px; 
+  font-size: 12pt; 
+  margin: -7px; 
+  background-color: #c00; 
+  color: #fff; 
+} 
+
+#errorExplanation p { 
+  color: #333; 
+  margin-bottom: 0; 
+  padding: 5px; 
+} 
+
+#errorExplanation ul li { 
+  font-size: 11pt; 
+  list-style: square; 
+} 
+
+/* Flash Notice Style */ 
+#notice { 
+  border: 3px solid green; 
+  padding: 1em; 
+  margin: 1em; 
+  margin-bottom: 2em; 
+  background-color: lightgray;
+  color: green;
+  font: bold smaller sans-serif; 
+}
+
+
+/* Community Styles */
+
+a, a#visited {
+  color: #3377BB;
+  text-decoration: none;
+}
+
+
+.account_thumbnail {
+	height: 100px;
+	width: 100px;
+	float: left;
+	margin-right: 1em;
+	vertical-align: middle;
+}
+
+.account_details {
+	float: left;
+}
+
+
+/* Profile Styles */
+
+td.label {
+  text-align: right;
+  font-weight:  bold;
+  white-space: nowrap;
+}
+
+input {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.edit_link a {
+  text-decoration: none;
+  color: #3377BB;
+}
+
+#menu_column {
+  float:  right;
+  width: 300px;
+}
+
+#main_content {
+	float: left;
+}
+
+.sidebar_box {
+  background-color: #ddd;
+  border: 1px solid #aaa; 
+  font-size: 12px;  
+  margin-bottom:  10px;
+}
+
+.sidebar_box h2 {
+   margin-top:  0px;
+   padding: 6px;
+   background-color: #ccc;
+   font-size: 13px;
+   color: #3377BB; 
+   font-weight:bold;
+}
+.sidebar_box p {
+   padding-left:  6px;
+   padding-right: 6px;
+}
+
+.sidebar_box .header  {
+  float: left;
+}
+
+.sidebar_box .edit_link {
+  float: right;
+}
+
+.content_box {
+  background-color: #ddd;
+  border: 1px solid #aaa; 
+  font-size: 12px;  
+  margin-bottom:  10px;
+}
+
+.content_box h2 {
+   margin-top:  0px;
+   padding: 6px;
+   background-color: #ccc;
+   font-size: 13px;
+   color: #3377BB; 
+   font-weight:bold;
+}
+.content_box p {
+   padding-left:  6px;
+   padding-right: 6px;
+}
+
+.content_box .header  {
+  float: left;
+}
+
+.content_box .edit_link {
+  float: right;
+}
+
+.mini_info_box {
+	padding: 5px;
+	margin: 2px;
+}

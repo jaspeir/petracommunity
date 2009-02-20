@@ -1,0 +1,15 @@
+<% unless @pictures.nil? %>
+  <div class="content_box">
+		<h2>
+	  	<span class="header">Bilder</span>
+	  	<br />
+		</h2>
+  	<div class="content_box_contents">
+			<p>
+	  		<% @pictures.each do |picture| %>
+					<%= link_to image_tag(picture.public_filename(:thumb)), picture_path(picture) %>
+	  		<% end %>
+			</p>
+  	</div>
+	</div>
+<% end %>

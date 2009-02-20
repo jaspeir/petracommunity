@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/24/trunk/lib
+END
+authenticated_test_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/15/trunk/lib/authenticated_test_helper.rb
+END
+object.rb
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/lib/object.rb
+END
+string.rb
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/lib/string.rb
+END
+authenticated_system.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/15/trunk/lib/authenticated_system.rb
+END

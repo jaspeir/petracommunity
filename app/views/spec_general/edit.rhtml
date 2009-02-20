@@ -1,0 +1,29 @@
+<%= error_messages_for :spec_general %>
+<% form_for :spec_general, :url => spec_general_path, :html => {:method => :put} do |f| %>
+	<fieldset>
+		<legend>Details bearbeiten</legend>
+		<p><label for="sexuality">Sexualität</label>
+		<%= f.select :sexuality, SpecGeneral::SEXUALITIES %></p>
+
+		<p><label for="birth_date">Geburtstag*</label>
+		<%= f.date_select :birth_date, 
+						  :order => [:day, :month, :year],
+						  :start_year => SpecGeneral::START_YEAR,
+						  :end_year => Time.now.year,
+						  :include_blank => true,
+						  :use_month_numbers => true %></p>
+
+		<p><label for="zip_code">PLZ</label>
+		<%= f.text_field :zip_code, :size => 5 %></p>
+		
+		<p><label for="city">Stadt</label>
+		<%= f.text_field :city, :size => 40 %></p>
+		
+		
+		
+		<p>* - Pflichtfeld</p>
+
+		 
+		<p><%= submit_tag 'Speichern'.t %></p>
+	</fieldset>
+<% end %>

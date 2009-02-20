@@ -1,0 +1,2 @@
+module GsSpecHelper
+end
